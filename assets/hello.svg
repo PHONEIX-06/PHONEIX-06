@@ -1,4 +1,4 @@
-<svg width="860" height="280" viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <radialGradient id="bg" cx="50%" cy="40%" r="70%">
     <stop offset="0%" stop-color="#160429"/>
@@ -20,7 +20,7 @@
 </defs>
 
 <!-- Background -->
-<rect width="860" height="280" fill="url(#bg)"/>
+<rect width="900" height="290" fill="url(#bg)"/>
 
 <!-- Twinkling stars — pure SMIL -->
 <circle cx="28"  cy="18"  r="1.5" fill="#00FFFF"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="2.2s" repeatCount="indefinite"/></circle>
@@ -162,15 +162,15 @@
 <line x1="450" y1="30" x2="450" y2="268" stroke="#7C3AED" stroke-width="0.7" opacity="0.2"/>
 
 <!-- main name with glow -->
-<text x="620" y="162" text-anchor="middle" font-size="27" font-weight="bold" fill="#FFFFFF" filter="url(#glow)">Deepamjyoti Mohanty</text>
+<text x="670" y="162" text-anchor="middle" font-size="27" font-weight="bold" fill="#FFFFFF" filter="url(#glow)">Deepamjyoti Mohanty</text>
 
 <!-- animated colour-shift on name via fill animate -->
-<text x="620" y="162" text-anchor="middle" font-size="27" font-weight="bold" fill="#00FFFF" opacity="0">
+<text x="670" y="162" text-anchor="middle" font-size="27" font-weight="bold" fill="#00FFFF" opacity="0">
   <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0.6;0.3;0" dur="6s" repeatCount="indefinite"/>
   <animate attributeName="x"       values="620;617;623;620;620;620;620;620;620;620;620" dur="6s" repeatCount="indefinite"/>
   Deepamjyoti Mohanty
 </text>
-<text x="620" y="162" text-anchor="middle" font-size="27" font-weight="bold" fill="#FF6B6B" opacity="0">
+<text x="670" y="162" text-anchor="middle" font-size="27" font-weight="bold" fill="#FF6B6B" opacity="0">
   <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0.5;0" dur="6s" repeatCount="indefinite" begin="0.5s"/>
   <animate attributeName="x"       values="620;623;617;620;620;620;620;620;620;623;620" dur="6s" repeatCount="indefinite" begin="0.5s"/>
   Deepamjyoti Mohanty
@@ -182,17 +182,17 @@
 </line>
 
 <!-- role line 1 -->
-<text x="620" y="198" text-anchor="middle" font-size="12.5" fill="#A78BFA">
+<text x="670" y="198" text-anchor="middle" font-size="12.5" fill="#A78BFA">
   <animate attributeName="opacity" values="1;1;1;0;0;0;0;0;0;0;1" dur="10s" repeatCount="indefinite"/>
   &#x26A1; Full-Stack Engineer | ML Engineer | Data Analyst
 </text>
 <!-- role line 2 -->
-<text x="620" y="198" text-anchor="middle" font-size="12.5" fill="#00FFFF" opacity="0">
+<text x="670" y="198" text-anchor="middle" font-size="12.5" fill="#00FFFF" opacity="0">
   <animate attributeName="opacity" values="0;0;0;0;1;1;1;0;0;0;0" dur="10s" repeatCount="indefinite"/>
   &#x1F680; React · Node.js · Python · XGBoost · Docker · AWS
 </text>
 <!-- role line 3 -->
-<text x="620" y="198" text-anchor="middle" font-size="12.5" fill="#FF6B6B" opacity="0">
+<text x="670" y="198" text-anchor="middle" font-size="12.5" fill="#FF6B6B" opacity="0">
   <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0" dur="10s" repeatCount="indefinite"/>
   &#x1F393; B.Tech CSE 2026 · CGPA 8.03 · Open to Work
 </text>
