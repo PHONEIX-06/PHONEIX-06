@@ -1,16 +1,253 @@
 <div align="center">
 
 <!-- ══════════════════════════════════════════════════════════ -->
-<!--                  ANIMATED HEADER BANNER                   -->
+<!--           ANIMATED HEADER BANNER — VENOM WAVE            -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,30:0d0221,60:1a0533,100:0d0221&height=280&section=header&text=Deepamjyoti%20Mohanty&fontSize=58&fontAlign=50&fontAlignY=38&fontColor=ffffff&desc=Full-Stack%20Engineer%20%7C%20ML%20Researcher%20%7C%20Data%20Analyst&descSize=20&descAlign=50&descAlignY=60&animation=fadeIn&stroke=7C3AED&strokeWidth=2" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,30:0d0221,60:1a0533,100:0d0221&height=120&section=header&animation=fadeIn" />
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--         LIVE CARTOON CHARACTER — WAVING HELLO            -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Starfield background -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a0533;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0a0a0f;stop-opacity:1"/>
+    </radialGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Neon stroke -->
+    <filter id="neon">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Animated stars -->
+  <circle cx="80" cy="30" r="1.5" fill="#00FFFF" opacity="0.8"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="200" cy="15" r="1" fill="#A78BFA" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.7s" repeatCount="indefinite"/></circle>
+  <circle cx="350" cy="40" r="1.5" fill="#00FFFF" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="500" cy="20" r="1" fill="#ffffff" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.9s" repeatCount="indefinite"/></circle>
+  <circle cx="650" cy="35" r="1.5" fill="#A78BFA" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="800" cy="18" r="1" fill="#00FFFF" opacity="0.8"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.0s" repeatCount="indefinite"/></circle>
+  <circle cx="860" cy="50" r="1.5" fill="#ffffff" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="120" cy="180" r="1" fill="#00FFFF" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="750" cy="190" r="1.5" fill="#A78BFA" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="200" r="1" fill="#ffffff" opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.7s" repeatCount="indefinite"/></circle>
+
+  <!-- Floating particles -->
+  <circle cx="60" cy="110" r="3" fill="#00FFFF" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="cy" values="110;90;110" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="840" cy="100" r="3" fill="#A78BFA" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="cy" values="100;120;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═══ CARTOON CHARACTER ═══ -->
+  <!-- Character body group — slight bob animation -->
+  <g transform="translate(100, 30)">
+    <animateTransform attributeName="transform" type="translate" values="100,30; 100,24; 100,30" dur="2s" repeatCount="indefinite"/>
+
+    <!-- Shadow -->
+    <ellipse cx="75" cy="175" rx="38" ry="7" fill="#000000" opacity="0.25"/>
+
+    <!-- Body — hoodie style -->
+    <rect x="45" y="105" width="60" height="58" rx="14" fill="#7C3AED"/>
+    <!-- Hoodie pocket -->
+    <rect x="60" y="135" width="30" height="18" rx="6" fill="#6D28D9"/>
+    <!-- Hoodie strings -->
+    <line x1="72" y1="118" x2="68" y2="130" stroke="#A78BFA" stroke-width="1.5"/>
+    <line x1="78" y1="118" x2="82" y2="130" stroke="#A78BFA" stroke-width="1.5"/>
+
+    <!-- Left leg -->
+    <rect x="52" y="158" width="20" height="22" rx="8" fill="#1e1e3f"/>
+    <!-- Right leg -->
+    <rect x="78" y="158" width="20" height="22" rx="8" fill="#1e1e3f"/>
+    <!-- Shoes -->
+    <ellipse cx="62" cy="180" rx="13" ry="6" fill="#00FFFF"/>
+    <ellipse cx="88" cy="180" rx="13" ry="6" fill="#00FFFF"/>
+
+    <!-- Right arm (waving) — ANIMATED -->
+    <g transform-origin="105 115">
+      <animateTransform attributeName="transform" type="rotate" values="-10,105,115; 30,105,115; -10,105,115" dur="0.7s" repeatCount="indefinite"/>
+      <rect x="105" y="108" width="14" height="38" rx="7" fill="#7C3AED"/>
+      <!-- Hand -->
+      <circle cx="112" cy="148" r="9" fill="#FBBF24"/>
+      <!-- Wave fingers -->
+      <line x1="106" y1="142" x2="102" y2="136" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+      <line x1="112" y1="140" x2="110" y2="133" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+      <line x1="118" y1="142" x2="118" y2="134" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Left arm -->
+    <rect x="31" y="108" width="14" height="38" rx="7" fill="#7C3AED"/>
+    <circle cx="38" cy="148" r="9" fill="#FBBF24"/>
+
+    <!-- Neck -->
+    <rect x="68" y="95" width="14" height="14" rx="4" fill="#FBBF24"/>
+
+    <!-- Head -->
+    <circle cx="75" cy="78" r="32" fill="#FBBF24"/>
+
+    <!-- Hair -->
+    <ellipse cx="75" cy="50" rx="32" ry="14" fill="#1a0a2e"/>
+    <rect x="43" y="50" width="64" height="16" rx="4" fill="#1a0a2e"/>
+    <!-- Hair spikes -->
+    <polygon points="55,50 50,36 60,46" fill="#1a0a2e"/>
+    <polygon points="68,48 65,32 73,44" fill="#1a0a2e"/>
+    <polygon points="82,48 80,32 88,44" fill="#1a0a2e"/>
+    <polygon points="94,50 90,36 100,46" fill="#1a0a2e"/>
+
+    <!-- Eyes — blinking -->
+    <g>
+      <!-- Left eye -->
+      <circle cx="62" cy="76" r="7" fill="white"/>
+      <circle cx="64" cy="76" r="4" fill="#1a0a2e"/>
+      <circle cx="65" cy="74" r="1.5" fill="white"/>
+      <!-- Blink left -->
+      <rect x="55" y="72" width="14" height="8" rx="4" fill="#FBBF24">
+        <animate attributeName="height" values="0;0;0;0;0;0;8;0;0;0;0;0;0;8;0" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="76;76;76;76;76;76;72;76;76;76;76;76;76;72;76" dur="4s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Right eye -->
+      <circle cx="88" cy="76" r="7" fill="white"/>
+      <circle cx="90" cy="76" r="4" fill="#1a0a2e"/>
+      <circle cx="91" cy="74" r="1.5" fill="white"/>
+      <!-- Blink right -->
+      <rect x="81" y="72" width="14" height="8" rx="4" fill="#FBBF24">
+        <animate attributeName="height" values="0;0;0;0;0;0;8;0;0;0;0;0;0;8;0" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="76;76;76;76;76;76;72;76;76;76;76;76;76;72;76" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Smile -->
+    <path d="M 62 88 Q 75 100 88 88" stroke="#1a0a2e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Glasses -->
+    <rect x="54" y="70" width="16" height="13" rx="5" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.9"/>
+    <rect x="76" y="70" width="16" height="13" rx="5" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.9"/>
+    <line x1="70" y1="76" x2="76" y2="76" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="54" y1="76" x2="48" y2="74" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="92" y1="76" x2="98" y2="74" stroke="#00FFFF" stroke-width="2"/>
+
+    <!-- Laptop in left hand -->
+    <rect x="20" y="130" width="30" height="20" rx="3" fill="#1e1e3f" stroke="#00FFFF" stroke-width="1"/>
+    <rect x="22" y="132" width="26" height="14" rx="2" fill="#0d0221"/>
+    <!-- Code lines on laptop -->
+    <line x1="24" y1="135" x2="34" y2="135" stroke="#00FFFF" stroke-width="1" opacity="0.7"/>
+    <line x1="24" y1="138" x2="40" y2="138" stroke="#A78BFA" stroke-width="1" opacity="0.7"/>
+    <line x1="24" y1="141" x2="36" y2="141" stroke="#00FFFF" stroke-width="1" opacity="0.7"/>
+    <rect x="22" y="149" width="26" height="3" rx="1.5" fill="#2a2a4a"/>
+  </g>
+
+  <!-- ═══ SPEECH BUBBLE ═══ -->
+  <g>
+    <animate attributeName="opacity" values="0;1;1;1;0" dur="3s" repeatCount="indefinite"/>
+    <!-- Bubble body -->
+    <rect x="215" y="38" width="220" height="70" rx="18" fill="#0d0221" stroke="#00FFFF" stroke-width="2" filter="url(#glow)"/>
+    <!-- Bubble tail -->
+    <polygon points="215,80 195,95 225,90" fill="#0d0221"/>
+    <line x1="215" y1="79" x2="196" y2="94" stroke="#00FFFF" stroke-width="2"/>
+    <line x1="225" y1="90" x2="214" y2="81" stroke="#0d0221" stroke-width="3"/>
+    <!-- Bubble text -->
+    <text x="325" y="68" text-anchor="middle" font-family="Orbitron, monospace" font-size="15" font-weight="bold" fill="#00FFFF" filter="url(#textGlow)">👋 Hey there!</text>
+    <text x="325" y="92" text-anchor="middle" font-family="monospace" font-size="12" fill="#A78BFA">Welcome to my profile!</text>
+  </g>
+
+  <!-- ═══ ANIMATED NAME HEADLINE ═══ -->
+  <!-- Glitch layer 1 -->
+  <text x="450" y="105" text-anchor="middle" font-family="Orbitron, monospace" font-size="36" font-weight="900" fill="#FF6B6B" opacity="0.6">
+    Deepamjyoti Mohanty
+    <animate attributeName="x" values="450;453;447;450;450;452;450" dur="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;0.6;0;0;0;0;0.6;0" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <!-- Glitch layer 2 -->
+  <text x="450" y="105" text-anchor="middle" font-family="Orbitron, monospace" font-size="36" font-weight="900" fill="#00FFFF" opacity="0.6">
+    Deepamjyoti Mohanty
+    <animate attributeName="x" values="450;447;453;450;450;448;450" dur="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0.6;0;0;0;0;0.6;0;0;0" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <!-- Main name -->
+  <text x="450" y="105" text-anchor="middle" font-family="Orbitron, monospace" font-size="36" font-weight="900" fill="white" filter="url(#textGlow)">Deepamjyoti Mohanty</text>
+
+  <!-- Animated underline -->
+  <rect x="280" y="112" height="3" rx="2" fill="url(#lineGrad)">
+    <animate attributeName="width" values="0;340;0" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="450;280;450" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="50%" style="stop-color:#00FFFF"/>
+      <stop offset="100%" style="stop-color:#FF6B6B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Role text with fade cycle -->
+  <text x="450" y="140" text-anchor="middle" font-family="monospace" font-size="14" fill="#A78BFA">
+    <animate attributeName="opacity" values="1;1;0;0;0;0;1" dur="6s" repeatCount="indefinite"/>
+    ⚡ Full-Stack Engineer  |  ML Researcher  |  Data Analyst
+  </text>
+  <text x="450" y="140" text-anchor="middle" font-family="monospace" font-size="14" fill="#00FFFF">
+    <animate attributeName="opacity" values="0;0;0;1;1;0;0" dur="6s" repeatCount="indefinite"/>
+    🚀 React · Node.js · Python · XGBoost · Docker · AWS
+  </text>
+  <text x="450" y="140" text-anchor="middle" font-family="monospace" font-size="14" fill="#FF6B6B">
+    <animate attributeName="opacity" values="0;0;0;0;0;1;0" dur="6s" repeatCount="indefinite"/>
+    🎓 B.Tech CSE 2026  |  CGPA 8.03  |  Open to Work
+  </text>
+
+  <!-- Decorative circuit lines left -->
+  <line x1="260" y1="105" x2="230" y2="105" stroke="#7C3AED" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="230" y1="105" x2="230" y2="90" stroke="#7C3AED" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.3s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="230" cy="90" r="3" fill="#00FFFF" opacity="0.8">
+    <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Decorative circuit lines right -->
+  <line x1="640" y1="105" x2="670" y2="105" stroke="#00FFFF" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.8s" repeatCount="indefinite"/>
+  </line>
+  <line x1="670" y1="105" x2="670" y2="120" stroke="#00FFFF" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.1s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="670" cy="120" r="3" fill="#A78BFA" opacity="0.8">
+    <animate attributeName="r" values="3;5;3" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Status dot -->
+  <circle cx="450" cy="168" r="5" fill="#00ff88">
+    <animate attributeName="r" values="5;8;5" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="462" y="173" font-family="monospace" font-size="11" fill="#00ff88">Available for opportunities</text>
+</svg>
 
 <!-- ══════════════════════════════════════════════════════════ -->
 <!--                   ANIMATED TYPING                        -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=20&pause=800&color=00FFFF&background=00000000&center=true&vCenter=true&multiline=false&width=750&height=60&lines=🚀+Building+Intelligent+Systems+%26+Production+Apps;📊+Turning+Raw+Data+into+Actionable+Intelligence;🤖+ML+Engineer+%7C+XGBoost+%7C+Random+Forest+%7C+Deep+Learning;⚡+React+%7C+Next.js+%7C+Node.js+%7C+FastAPI+%7C+Spring+Boot;🌍+Open+to+Full-Time+Roles+%7C+Remote+Worldwide;🔬+Published+Researcher+%7C+Springer+2024" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=20&pause=800&color=00FFFF&background=00000000&center=true&vCenter=true&multiline=false&width=750&height=60&lines=🚀+Building+Intelligent+Systems+%26+Production+Apps;📊+Turning+Raw+Data+into+Actionable+Intelligence;🤖+ML+Engineer+%7C+XGBoost+%7C+Random+Forest+%7C+Deep+Learning;⚡+React+%7C+Next.js+%7C+Node.js+%7C+FastAPI;🌍+Open+to+Full-Time+Roles+%7C+Remote+Worldwide;🔬+Google+UI%2FUX+Certified+%7C+MERN+Stack+Expert" alt="Typing SVG" />
 
 <br/>
 
@@ -24,17 +261,18 @@
 <a href="mailto:deepamjyoti12345@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-deepamjyoti12345-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0f"/>
 </a>
-<a href="https://github.com/deepamjyoti-mohanty" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-deepamjyoti--mohanty-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=7C3AED"/>
+<a href="https://github.com/PHONEIX-06" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-PHONEIX--06-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=7C3AED"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=deepamjyoti-mohanty&style=for-the-badge&color=00FFFF&label=PROFILE+VIEWS&labelColor=0d0221"/>
+<img src="https://komarev.com/ghpvc/?username=PHONEIX-06&style=for-the-badge&color=00FFFF&label=PROFILE+VIEWS&labelColor=0d0221"/>
 
 <br/><br/>
 
 <!-- Availability & Status -->
+<img src="https://img.shields.io/badge/📞_PHONE-%2B91--8917607161-0a0a0f?style=for-the-badge&labelColor=00b894&color=0d0221"/>
 <img src="https://img.shields.io/badge/🟢_AVAILABLE-Full--Stack_%7C_ML_%7C_Data_Analytics-0a0a0f?style=for-the-badge&labelColor=00ff88&color=0d0221"/>
 <img src="https://img.shields.io/badge/📍_LOCATION-Bhubaneswar%2C_India-0a0a0f?style=for-the-badge&labelColor=7C3AED&color=0d0221"/>
-<img src="https://img.shields.io/badge/🎓_CGPA-8.4_|_B.Tech_CSE_2026-0a0a0f?style=for-the-badge&labelColor=FF6B6B&color=0d0221"/>
+<img src="https://img.shields.io/badge/🎓_CGPA-8.03_|_B.Tech_CSE_2026-0a0a0f?style=for-the-badge&labelColor=FF6B6B&color=0d0221"/>
 
 </div>
 
@@ -58,14 +296,92 @@
 
 ---
 
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--              ANIMATED STATS COUNTER BANNER               -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<svg width="860" height="90" viewBox="0 0 860 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0221;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a0533;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="cardGlow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Card 1: Projects -->
+  <rect x="10" y="8" width="158" height="74" rx="12" fill="url(#cardGrad1)" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="89" y="35" text-anchor="middle" font-family="Orbitron,monospace" font-size="22" font-weight="900" fill="#00FFFF" filter="url(#cardGlow)">5+</text>
+  <text x="89" y="55" text-anchor="middle" font-family="monospace" font-size="11" fill="#A78BFA">Projects Built</text>
+  <text x="89" y="72" text-anchor="middle" font-family="monospace" font-size="10" fill="#555">🚀 Production Ready</text>
+  <!-- Card 2: Internships -->
+  <rect x="178" y="8" width="158" height="74" rx="12" fill="url(#cardGrad1)" stroke="#00FFFF" stroke-width="1.5"/>
+  <text x="257" y="35" text-anchor="middle" font-family="Orbitron,monospace" font-size="22" font-weight="900" fill="#7C3AED" filter="url(#cardGlow)">2</text>
+  <text x="257" y="55" text-anchor="middle" font-family="monospace" font-size="11" fill="#A78BFA">Internships</text>
+  <text x="257" y="72" text-anchor="middle" font-family="monospace" font-size="10" fill="#555">💼 Industry Exp.</text>
+  <!-- Card 3: Certifications -->
+  <rect x="346" y="8" width="158" height="74" rx="12" fill="url(#cardGrad1)" stroke="#FF6B6B" stroke-width="1.5"/>
+  <text x="425" y="35" text-anchor="middle" font-family="Orbitron,monospace" font-size="22" font-weight="900" fill="#FF6B6B" filter="url(#cardGlow)">2</text>
+  <text x="425" y="55" text-anchor="middle" font-family="monospace" font-size="11" fill="#A78BFA">Certifications</text>
+  <text x="425" y="72" text-anchor="middle" font-family="monospace" font-size="10" fill="#555">🏆 Google · Udemy</text>
+  <!-- Card 4: Languages -->
+  <rect x="514" y="8" width="158" height="74" rx="12" fill="url(#cardGrad1)" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="593" y="35" text-anchor="middle" font-family="Orbitron,monospace" font-size="22" font-weight="900" fill="#FBBF24" filter="url(#cardGlow)">8+</text>
+  <text x="593" y="55" text-anchor="middle" font-family="monospace" font-size="11" fill="#A78BFA">Tech Skills</text>
+  <text x="593" y="72" text-anchor="middle" font-family="monospace" font-size="10" fill="#555">⚡ Languages & Tools</text>
+  <!-- Card 5: CGPA -->
+  <rect x="682" y="8" width="158" height="74" rx="12" fill="url(#cardGrad1)" stroke="#00ff88" stroke-width="1.5"/>
+  <text x="761" y="35" text-anchor="middle" font-family="Orbitron,monospace" font-size="22" font-weight="900" fill="#00ff88" filter="url(#cardGlow)">8.03</text>
+  <text x="761" y="55" text-anchor="middle" font-family="monospace" font-size="11" fill="#A78BFA">CGPA Score</text>
+  <text x="761" y="72" text-anchor="middle" font-family="monospace" font-size="10" fill="#555">🎓 B.Tech CSE</text>
+</svg>
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--            CURRENTLY WORKING ON — LIVE TICKER            -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<svg width="860" height="52" viewBox="0 0 860 52" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="52" rx="10" fill="#0d0221" stroke="#7C3AED" stroke-width="1.5"/>
+  <!-- Pulse dot -->
+  <circle cx="22" cy="26" r="6" fill="#00ff88">
+    <animate attributeName="r" values="6;9;6" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="36" y="21" font-family="monospace" font-size="11" fill="#00ff88" font-weight="bold">LIVE</text>
+  <text x="36" y="36" font-family="monospace" font-size="10" fill="#555">STATUS</text>
+  <!-- Divider -->
+  <line x1="72" y1="10" x2="72" y2="42" stroke="#7C3AED" stroke-width="1" opacity="0.6"/>
+  <!-- Scrolling text -->
+  <text font-family="Orbitron,monospace" font-size="13" fill="#00FFFF" y="30">
+    <textPath href="#tickerPath" startOffset="0%">
+      🔨 Building: TechInterviewPro — AI Interview Prep Platform &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 📊 Studying: Advanced ML &amp; System Design &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 🌐 Learning: AWS Solutions Architecture &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 🎯 Goal: SDE Role 2026 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <animate attributeName="startOffset" from="0%" to="-100%" dur="18s" repeatCount="indefinite"/>
+    </textPath>
+  </text>
+  <defs>
+    <path id="tickerPath" d="M 80 0 L 860 0"/>
+  </defs>
+</svg>
+
+</div>
+
+---
+
 ## `> INITIALIZE developer.profile()`
 
 ```typescript
 const deepamjyoti: Developer = {
   name:           "Deepamjyoti Mohanty",
-  alias:          "deepamjyoti-mohanty",
+  alias:          "PHONEIX-06",
   location:       "Bhubaneswar, Odisha 🇮🇳",
-  education:      "B.Tech CSE @ C.V. Raman Global University (CGPA: 8.4)",
+  education:      "B.Tech CSE @ C.V. Raman Global University (CGPA: 8.03)",
   graduation:     "July 2026",
 
   roles:          [
@@ -90,7 +406,7 @@ const deepamjyoti: Developer = {
   },
 
   certifications: ["Google UX Design Professional", "EF SET C2 English Proficiency"],
-  internship:     "Web Dev Intern @ Proxenix — Built Production React + Node.js Systems",
+  internship:     "Web Dev Intern @ CodSoft — Built 3+ Production Apps with React, Node.js & MongoDB",
   funFact:        "I train ML models at 2AM with the same passion I deploy Next.js apps at noon ⚡",
 };
 ```
@@ -369,17 +685,17 @@ PEAK ACCURACY: ▓▓▓▓▓▓▓▓▓▓ 95.78%
 
 <div align="center">
 
-<img height="195em" src="https://github-readme-stats.vercel.app/api?username=deepamjyoti-mohanty&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=7C3AED&text_color=ffffff&border_radius=10"/>
-<img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepamjyoti-mohanty&layout=compact&langs_count=10&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FFFF&text_color=ffffff&border_radius=10"/>
+<img height="195em" src="https://github-readme-stats.vercel.app/api?username=PHONEIX-06&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=7C3AED&text_color=ffffff&border_radius=10"/>
+<img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PHONEIX-06&layout=compact&langs_count=10&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FFFF&text_color=ffffff&border_radius=10"/>
 
 <br/>
 
-<img width="72%" src="https://github-readme-streak-stats.herokuapp.com/?user=deepamjyoti-mohanty&theme=highcontrast&hide_border=true&background=0d1117&ring=00FFFF&fire=FF6B6B&currStreakLabel=00FFFF&sideLabels=A78BFA&dates=888888&stroke=7C3AED"/>
+<img width="72%" src="https://github-readme-streak-stats.herokuapp.com/?user=PHONEIX-06&theme=highcontrast&hide_border=true&background=0d1117&ring=00FFFF&fire=FF6B6B&currStreakLabel=00FFFF&sideLabels=A78BFA&dates=888888&stroke=7C3AED"/>
 
 <br/><br/>
 
 <!-- Activity Graph -->
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=deepamjyoti-mohanty&theme=react-dark&hide_border=true&bg_color=0d1117&color=00FFFF&line=7C3AED&point=FF6B6B&area=true&area_color=7C3AED"/>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=PHONEIX-06&theme=react-dark&hide_border=true&bg_color=0d1117&color=00FFFF&line=7C3AED&point=FF6B6B&area=true&area_color=7C3AED"/>
 
 </div>
 
@@ -388,7 +704,7 @@ PEAK ACCURACY: ▓▓▓▓▓▓▓▓▓▓ 95.78%
 ## 🏆 ACHIEVEMENT UNLOCKED
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=deepamjyoti-mohanty&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7&title=Stars,Commits,PR,Issues,Repositories,MultipleLang,Followers"/>
+<img src="https://github-profile-trophy.vercel.app/?username=PHONEIX-06&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7&title=Stars,Commits,PR,Issues,Repositories,MultipleLang,Followers"/>
 </div>
 
 ---
@@ -461,17 +777,17 @@ TypeScript                   ██████████░░░░░░░
 <a href="mailto:deepamjyoti12345@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-Drop_a_Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://github.com/deepamjyoti-mohanty">
-  <img src="https://img.shields.io/badge/GitHub-deepamjyoti--mohanty-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://github.com/PHONEIX-06">
+  <img src="https://img.shields.io/badge/GitHub-PHONEIX--06-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
 
 <!-- Snake contribution animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/deepamjyoti-mohanty/deepamjyoti-mohanty/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/deepamjyoti-mohanty/deepamjyoti-mohanty/output/github-contribution-grid-snake.svg"/>
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/deepamjyoti-mohanty/deepamjyoti-mohanty/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PHONEIX-06/PHONEIX-06/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PHONEIX-06/PHONEIX-06/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/PHONEIX-06/PHONEIX-06/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 <br/>
