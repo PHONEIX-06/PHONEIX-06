@@ -4,20 +4,20 @@
 <!--           ANIMATED HEADER BANNER — VENOM WAVE            -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,30:0d0221,60:1a0533,100:0d0221&height=120&section=header&animation=fadeIn" />
+
 
 <!-- ══════════════════════════════════════════════════════════ -->
 <!--   CARTOON + GLITCH NAME — commit assets/hello.svg        -->
 <!--   Then this img will animate perfectly on GitHub         -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img src="./assets/hello.svg" alt="Deepamjyoti Mohanty — Hello!" width="900"/>
+<img src="./assets/hello.svg" alt="Deepamjyoti Mohanty" width="100%"/>
 
 <!-- ══════════════════════════════════════════════════════════ -->
 <!--                   ANIMATED TYPING                        -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=20&pause=800&color=00FFFF&background=00000000&center=true&vCenter=true&multiline=false&width=750&height=60&lines=🚀+Building+Intelligent+Systems+%26+Production+Apps;📊+Turning+Raw+Data+into+Actionable+Intelligence;🤖+ML+Engineer+%7C+XGBoost+%7C+Random+Forest+%7C+Deep+Learning;⚡+React+%7C+Next.js+%7C+Node.js+%7C+FastAPI;🌍+Open+to+Full-Time+Roles+%7C+Remote+Worldwide;🔬+Google+UI%2FUX+Certified+%7C+MERN+Stack+Expert" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&height=50&lines=Full-Stack+Engineer+%7C+ML+Researcher+%7C+Data+Analyst;React+%7C+Node.js+%7C+Python+%7C+XGBoost+%7C+Docker+%7C+AWS;B.Tech+CSE+2026+%7C+CGPA+8.03+%7C+Open+to+Work" alt="Typing SVG" />
 
 <br/>
 
