@@ -4,7 +4,7 @@
 <!--                  ANIMATED HEADER BANNER                   -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,30:0d0221,60:1a0533,100:0d0221&height=280&section=header&text=Anup%20Kumar%20Mahato&fontSize=58&fontAlign=50&fontAlignY=38&fontColor=ffffff&desc=Full-Stack%20Engineer%20%7C%20ML%20Researcher%20%7C%20Data%20Analyst&descSize=20&descAlign=50&descAlignY=60&animation=fadeIn&stroke=7C3AED&strokeWidth=2" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,30:0d0221,60:1a0533,100:0d0221&height=280&section=header&text=Deepamjyoti%20Mohanty&fontSize=58&fontAlign=50&fontAlignY=38&fontColor=ffffff&desc=Full-Stack%20Engineer%20%7C%20ML%20Researcher%20%7C%20Data%20Analyst&descSize=20&descAlign=50&descAlignY=60&animation=fadeIn&stroke=7C3AED&strokeWidth=2" />
 
 <!-- ══════════════════════════════════════════════════════════ -->
 <!--                   ANIMATED TYPING                        -->
@@ -18,16 +18,16 @@
 <!--                    PROFILE BADGES                        -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<a href="https://www.linkedin.com/in/anup-kumar-mahato" target="_blank">
+<a href="https://www.linkedin.com/in/deepamjyoti-mohanty" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0f"/>
 </a>
-<a href="mailto:anupez16@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-anupez16-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0f"/>
+<a href="mailto:deepamjyoti12345@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-deepamjyoti12345-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0f"/>
 </a>
-<a href="https://github.com/Anupez16" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Anupez16-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=7C3AED"/>
+<a href="https://github.com/deepamjyoti-mohanty" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-deepamjyoti--mohanty-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=7C3AED"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=Anupez16&style=for-the-badge&color=00FFFF&label=PROFILE+VIEWS&labelColor=0d0221"/>
+<img src="https://komarev.com/ghpvc/?username=deepamjyoti-mohanty&style=for-the-badge&color=00FFFF&label=PROFILE+VIEWS&labelColor=0d0221"/>
 
 <br/><br/>
 
@@ -61,9 +61,9 @@
 ## `> INITIALIZE developer.profile()`
 
 ```typescript
-const anup: Developer = {
-  name:           "Anup Kumar Mahato",
-  alias:          "Anupez16",
+const deepamjyoti: Developer = {
+  name:           "Deepamjyoti Mohanty",
+  alias:          "deepamjyoti-mohanty",
   location:       "Bhubaneswar, Odisha 🇮🇳",
   education:      "B.Tech CSE @ C.V. Raman Global University (CGPA: 8.4)",
   graduation:     "July 2026",
@@ -369,17 +369,17 @@ PEAK ACCURACY: ▓▓▓▓▓▓▓▓▓▓ 95.78%
 
 <div align="center">
 
-<img height="195em" src="https://github-readme-stats.vercel.app/api?username=Anupez16&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=7C3AED&text_color=ffffff&border_radius=10"/>
-<img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anupez16&layout=compact&langs_count=10&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FFFF&text_color=ffffff&border_radius=10"/>
+<img height="195em" src="https://github-readme-stats.vercel.app/api?username=deepamjyoti-mohanty&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=7C3AED&text_color=ffffff&border_radius=10"/>
+<img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepamjyoti-mohanty&layout=compact&langs_count=10&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FFFF&text_color=ffffff&border_radius=10"/>
 
 <br/>
 
-<img width="72%" src="https://github-readme-streak-stats.herokuapp.com/?user=Anupez16&theme=highcontrast&hide_border=true&background=0d1117&ring=00FFFF&fire=FF6B6B&currStreakLabel=00FFFF&sideLabels=A78BFA&dates=888888&stroke=7C3AED"/>
+<img width="72%" src="https://github-readme-streak-stats.herokuapp.com/?user=deepamjyoti-mohanty&theme=highcontrast&hide_border=true&background=0d1117&ring=00FFFF&fire=FF6B6B&currStreakLabel=00FFFF&sideLabels=A78BFA&dates=888888&stroke=7C3AED"/>
 
 <br/><br/>
 
 <!-- Activity Graph -->
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anupez16&theme=react-dark&hide_border=true&bg_color=0d1117&color=00FFFF&line=7C3AED&point=FF6B6B&area=true&area_color=7C3AED"/>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=deepamjyoti-mohanty&theme=react-dark&hide_border=true&bg_color=0d1117&color=00FFFF&line=7C3AED&point=FF6B6B&area=true&area_color=7C3AED"/>
 
 </div>
 
@@ -388,7 +388,7 @@ PEAK ACCURACY: ▓▓▓▓▓▓▓▓▓▓ 95.78%
 ## 🏆 ACHIEVEMENT UNLOCKED
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Anupez16&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7&title=Stars,Commits,PR,Issues,Repositories,MultipleLang,Followers"/>
+<img src="https://github-profile-trophy.vercel.app/?username=deepamjyoti-mohanty&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7&title=Stars,Commits,PR,Issues,Repositories,MultipleLang,Followers"/>
 </div>
 
 ---
@@ -397,7 +397,7 @@ PEAK ACCURACY: ▓▓▓▓▓▓▓▓▓▓ 95.78%
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                     ANUP's FULL-STACK ML SYSTEM DESIGN                      ║
+║                   DEEPAMJYOTI's FULL-STACK ML SYSTEM DESIGN                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║   [User/Client]                                                              ║
@@ -455,23 +455,23 @@ TypeScript                   ██████████░░░░░░░
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-<a href="https://linkedin.com/in/anup-kumar-mahato">
+<a href="https://linkedin.com/in/deepamjyoti-mohanty">
   <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:anupez16@gmail.com">
+<a href="mailto:deepamjyoti12345@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-Drop_a_Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://github.com/Anupez16">
-  <img src="https://img.shields.io/badge/GitHub-Anupez16-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://github.com/deepamjyoti-mohanty">
+  <img src="https://img.shields.io/badge/GitHub-deepamjyoti--mohanty-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
 
 <!-- Snake contribution animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anupez16/Anupez16/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anupez16/Anupez16/output/github-contribution-grid-snake.svg"/>
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Anupez16/Anupez16/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/deepamjyoti-mohanty/deepamjyoti-mohanty/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/deepamjyoti-mohanty/deepamjyoti-mohanty/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/deepamjyoti-mohanty/deepamjyoti-mohanty/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 <br/>
@@ -481,11 +481,11 @@ TypeScript                   ██████████░░░░░░░
 
 <!--START_SECTION:waka-->
 ```text
-Python       ██████████████░░░░░░░  54.2%  ← ML models, data pipelines
-TypeScript   ████████░░░░░░░░░░░░░  30.1%  ← Next.js, React, APIs
-JavaScript   ████░░░░░░░░░░░░░░░░░  10.3%  ← Node.js, Express
-Java         █░░░░░░░░░░░░░░░░░░░░   3.8%  ← Spring Boot, competitive prog
-Bash/Shell   ░░░░░░░░░░░░░░░░░░░░░   1.6%  ← DevOps, automation
+Java         ███████████████████░░  72.4%  ← Competitive prog, DSA, backend
+Python       ████████████████░░░░░  61.8%  ← ML models, data pipelines, EDA
+JavaScript   ████░░░░░░░░░░░░░░░░░  10.3%  ← Node.js, Express, frontend
+TypeScript   ███░░░░░░░░░░░░░░░░░░   8.1%  ← Next.js, React, APIs
+Bash/Shell   █░░░░░░░░░░░░░░░░░░░░   3.2%  ← DevOps, automation
 ```
 <!--END_SECTION:waka-->
 
