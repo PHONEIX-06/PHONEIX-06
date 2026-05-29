@@ -280,15 +280,15 @@ const deepamjyoti: Developer = {
 ---
 
 ## 📊 GitHub Command Centre
-
 <div align="center">
 
 <img height="185em" src="https://github-readme-stats.vercel.app/api?username=PHONEIX-06&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=7C3AED&text_color=ffffff"/>
+
 <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PHONEIX-06&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFFF&text_color=ffffff"/>
 
 <br/>
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=PHONEIX-06&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFFF&fire=FF6B6B&currStreakLabel=00FFFF"/>
+<img width="70%" src="https://streak-stats.demolab.com?user=PHONEIX-06&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFFF&fire=FF6B6B&currStreakLabel=00FFFF"/>
 
 <br/><br/>
 
@@ -301,7 +301,9 @@ const deepamjyoti: Developer = {
 ## 🏆 Achievements
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=PHONEIX-06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=PHONEIX-06&theme=algolia&no-frame=true&no-bg=true&row=1&column=7"/>
+
 </div>
 
 ---
