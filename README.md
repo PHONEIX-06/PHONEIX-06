@@ -75,7 +75,7 @@ const deepamjyoti: Developer = {
   alias:      "PHONEIX-06",
   location:   "Bhubaneswar, Odisha 🇮🇳",
   education:  "B.Tech CSE @ C.V. Raman Global University (CGPA: 8.20)",
-  status:     "Final Year → Actively seeking SDE / Full-Stack / ML roles",
+  status:     "Computer Science Graduate → Actively seeking SDE / Full-Stack / ML roles",
 
   expertise:  [
     "Production SaaS Development",
