@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:7C3AED,100:00FFFF&height=200&section=header&text=Deepamjyoti%20Mohanty&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%7C%20AI%20%2F%20ML%20Builder%20%7C%20Open%20to%20Work&descAlignY=58&descSize=18&animation=twinkling"/>
 
 <!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&height=60&lines=Building+real+products%2C+not+just+assignments+%F0%9F%9A%80;React+%7C+Node.js+%7C+PostgreSQL+%7C+Redis+%7C+AWS+%7C+Docker;Full-Stack+%2B+AI+%2B+Cloud+%E2%80%94+Final+Year+CSE+2026;Shipped+Production+SaaS+%7C+Published+ML+Research" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&height=60&lines=Building+real+products%2C+not+just+assignments+%F0%9F%9A%80;React+%7C+Node.js+%7C+PostgreSQL+%7C+Redis+%7C+AWS+%7C+Docker;Full-Stack+%2B+AI+%2B+Cloud+%E2%80%94+Computer+Science+Graduate+2026;Shipped+Production+SaaS+%7C+Published+ML+Research" alt="Typing SVG" />
 
 <br/><br/>
 
